@@ -15,13 +15,6 @@ int main() {
     unsigned long long numbers[MAX_NUMBERS];
     int count = 0;
 
-    fp = fopen("330-final.txt", "r");
-
-    if (fp == NULL) {
-        perror("Error opening file");
-        return 1;
-    }
-
 
     // Write Your Code Here
 
